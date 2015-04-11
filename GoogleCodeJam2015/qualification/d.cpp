@@ -28,7 +28,7 @@ int main() {
         || r * c % x != 0
         || x > c
         || (x + 1) / 2 > r
-        || x >= 2 * r) {
+        || (x > 3 && x >= 2 * r)) {
       r_win();
     } else {
       g_win();
